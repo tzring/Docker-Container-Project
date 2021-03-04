@@ -5,6 +5,7 @@ This is a containerized change machine app. The program will ask for the amount 
 
 ## Docker Hub Repository
 This project is available at: https://hub.docker.com/repository/docker/tzring/ids721_project. 
+
 Note that the coin change machine is implemented in tag ver3.
 
 ## Instructions for runing the program
