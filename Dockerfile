@@ -5,6 +5,7 @@ WORKDIR /app
 
 # Copy source code to the working directory
 COPY . app.py /app/
+COPY . test_app.py /app/
 
 # Install packages from requirements.txt
 # hadolint ignore=DL3013

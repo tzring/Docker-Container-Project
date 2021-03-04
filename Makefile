@@ -1,13 +1,12 @@
 setup:
-	python3 -m venv ~/.docker
+	python3 -m venv ~/.docker 
 
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
 
 test:
-	#python -m pytest -vv --cov=myrepolib tests/*.py
-	#python -m pytest --nbval notebook.ipynb
+	python -m pytest test_app.py
 
 validate-circleci:
 	circleci config process .circleci/config.yml
